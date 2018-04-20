@@ -5,7 +5,7 @@ class Form extends React.Component{
 		return(
 			<form onSubmit={this.props.getInformation}>
 				<input type='text' name='npa' placeholder="NPA"/>
-        <input type='text' name='nxx' placeholder="NXX"/>
+				<input type='text' name='nxx' placeholder="NXX"/>
 				<button>Get Info</button>
 			</form>
 		);

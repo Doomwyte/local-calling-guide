@@ -22,8 +22,8 @@ class App extends React.Component{
   //hard-coded data for now
   state = {
     npanxx: undefined,
-    city: undefined,
-    region: undefined,
+    rateCenter: undefined,
+    province: undefined,
     switch: undefined,
     error: undefined
   }
@@ -34,17 +34,25 @@ class App extends React.Component{
     const data = 
       {
         "npanxx":"604-222",
-        "city":"Vancouver",
-        "region":"British Columbia",
+        "rateCenter":"Vancouver",
+        "province":"British Columbia",
         "switch":"VANCBC02DS2 ",
+        "ocn":"8086",
+        "companyName":"TELUS",
+        "portability":"Y",
+        "lrn":"2362080000"
       }
     if(npa && nxx){
       console.log(data);
       this.setState({
         npanxx: data.npanxx,
-        city: data.city,
-        region: data.region,
+        rateCenter: data.rateCenter,
+        province: data.province,
         switch: data.switch,
+        ocn: data.ocn,
+        companyName: data.companyName,
+        portability: data.portability,
+        lrn: data.lrn,
         error: ""
       });      
     }
@@ -52,15 +60,16 @@ class App extends React.Component{
       console.log(data);
       this.setState({
         npanxx: undefined,
-        city: undefined,
-        region: undefined,
+        rateCenter: undefined,
+        province: undefined,
         switch: undefined,
+        ocn: undefined,
+        companyName: undefined,
+        portability: undefined,
+        lrn: undefined,
         error: "Please enter a value"
       });      
     }
-  }
-  activateLasers(){
-    console.log("goodbye cruel world");
   }
   render() {
     return (
@@ -71,21 +80,24 @@ class App extends React.Component{
         </header>       
         <div className="main">
           <div className="col-xs-12 form-container">
-          <button>test</button>
             <Form getInformation={this.getInformation}/>
             <Information 
               response={this.state.response}
               npanxx={this.state.npanxx}
-              city={this.state.city}
-              region={this.state.region}
+              rateCenter={this.state.rateCenter}
+              province={this.state.province}
               switch={this.state.switch}
+              ocn={this.state.ocn}
+              companyName={this.state.companyName}
+              portability={this.state.portability}
+              lrn={this.state.lrn}
               error={this.state.error}
-            />
-          </div>          
+            />               
+          </div>                         
         </div>    
         <footer className="App-footer">
-          <img src={footerlogo} className="App-footerlogo" alt="logo" />
-        </footer>
+            <img src={footerlogo} className="App-footerlogo" alt="logo" />
+        </footer>  
       </div>
     );
   }
