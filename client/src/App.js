@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import headerlogo from './img/telus_transparent_logo.png';
 import footerlogo from './img/telus_blackwhite_logo.png'
 import './App.css';
