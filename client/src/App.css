@@ -1,0 +1,273 @@
+/* body {
+  font-family: "Arial";
+}
+
+.wrapper {
+  background: #a150f1;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* .main {
+  background: #fff;
+  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
+  width: 80%;
+  margin: 0 auto;
+  height: 90%;
+}
+
+.title-container {
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #000;
+  min-height: 90vh;
+  height: 90%;
+}
+
+.title-container__title {
+  font-size: 48px;
+  letter-spacing: 2px;
+  line-height: 1.2;
+  font-family: "Arial";
+}
+
+.title-container__subtitle {
+  font-style: italic;
+  font-weight: 100;
+  letter-spacing: 1px;
+  line-height: 1.5;
+  font-family: "Arial";
+}
+
+.form-container {
+  background-color: #2c3e50;
+  min-height: 90vh;
+  height: 90%;
+  padding-top: 100px;
+  padding-left: 50px;
+}
+
+input[type="text"] {
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 1px #a150f1;
+  width: 30%;
+  padding-bottom: 4px;
+  color: #fff !important;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+input[type="text"] { 
+    outline: none;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #2c3e50 inset;
+    -webkit-text-fill-color: #fff !important;
+}
+
+button {
+  border: 0;
+  padding: 8px 20px;
+  margin: 0 2px;
+  border-radius: 2px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #a150f1;
+  color: #fff;
+  font-weight: 100;
+}
+
+button:active {
+  outline: none;
+}
+
+.number__info {
+  width: 60%;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  overflow-wrap: normal;
+}
+
+.number__key {
+  color: #a150f1;
+  border-bottom: solid 2px rgba(255,255,255,0.06);
+  padding: 20px 0 20px 0;
+  font-weight: 400;
+}
+
+.number__key:last-child {
+  border: 0;
+}
+
+.number__value {
+  color: #fff;
+  font-weight: 200;
+}
+
+.number__value1 {
+  color: #fff;
+  font-weight: 200;
+  font-size: 10px;
+}
+
+.number__error {
+  color: #a150f1;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
+
+.telus-logo{
+  height:70px;
+  float: top;
+} */
+
+/* ========================== OLD CSS ========================== */
+
+.App {
+  font-family: Arial;
+}
+
+.App-header{
+  text-align: left;
+  height: 80px;
+  background-color: white;
+}
+
+.App-headerlogo{
+  padding: 15px;
+  height:80px;
+  position: relative;
+  top: 5px;
+}
+
+.App-headertext{
+  position: relative;
+  top: 8px;
+  font-size: 22px;
+  font-family: Arial;
+  color: #49266c;
+}
+
+.App-footer {
+  text-align: left;
+  background-color: #333;
+  height: 45px;
+  padding: 20px;
+  float: bottom;
+}
+
+.App-footerlogo{
+  position: relative;
+  bottom: 8px;
+  height: 20px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.main {
+  background: #222;
+  width: 100%;
+  margin: 0 auto;
+  height: 500px;
+}
+
+.form-container {
+  background-color: #2c3e50;
+  height: 100%;
+  padding-top: 100px;
+  padding-left: 50px;
+}
+
+input[type="text"] {
+  background-color: transparent;
+  border: 0;
+  border-bottom: solid 1px #a150f1;
+  width: 30%;
+  padding-bottom: 4px;
+  color: #fff !important;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  margin-right: 20px;
+  font-size: 20px;
+}
+
+input[type="text"] { 
+    outline: none;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #2c3e50 inset;
+    -webkit-text-fill-color: #fff !important;
+}
+
+button {
+  border: 0;
+  padding: 8px 20px;
+  margin: 0 2px;
+  border-radius: 2px;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #a150f1;
+  color: #fff;
+  font-weight: 100;
+}
+
+button:active {
+  outline: none;
+}
+
+.number__info {
+  width: 60%;
+  font-size: 20px;
+  font-weight: 200;
+  letter-spacing: 2px;
+  overflow-wrap: normal;
+}
+
+.number__key {
+  color: #a150f1;
+  border-bottom: solid 2px rgba(255,255,255,0.06);
+  padding: 20px 0 20px 0;
+  font-weight: 400;
+}
+
+.number__key:last-child {
+  border: 0;
+}
+
+.number__value {
+  color: #fff;
+  font-weight: 200;
+}
+
+.number__value1 {
+  color: #fff;
+  font-weight: 200;
+  font-size: 10px;
+}
+
+.number__error {
+  color: #a150f1;
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 200;
+}
