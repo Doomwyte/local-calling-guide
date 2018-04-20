@@ -4,6 +4,8 @@ import footerlogo from './img/telus_blackwhite_logo.png'
 import './App.css';
 import Form from "./components/Form";
 import Information from "./components/Information";
+import List from "./components/List";
+import { BrowserRouter as Router, Link, Route } from 'react-router-dom'
 
 class App extends React.Component{
   // for connecting with the SOAP web service, once its up
@@ -92,7 +94,8 @@ class App extends React.Component{
               portability={this.state.portability}
               lrn={this.state.lrn}
               error={this.state.error}
-            />               
+            />       
+            <List />        
           </div>                         
         </div>    
         <footer className="App-footer">

@@ -15,9 +15,7 @@ class Information extends React.Component{
 					{ 
 						this.props.rateCenter &&
 						<p className="number__key">Rate Center: 
-							<Link to={"/list"}>
 								<span className="number__value"> {this.props.rateCenter}</span>
-							</Link>
 						</p> 
 					}
 					{ 
