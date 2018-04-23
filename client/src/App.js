@@ -1,6 +1,6 @@
 import React from 'react';
 import headerlogo from './img/telus_transparent_logo.png';
-import footerlogo from './img/telus_blackwhite_logo.png'
+import footerlogo from './img/telus_blackwhite_logo.png';
 import './App.css';
 import Form from "./components/Form";
 import Information from "./components/Information";
@@ -94,8 +94,7 @@ class App extends React.Component{
               portability={this.state.portability}
               lrn={this.state.lrn}
               error={this.state.error}
-            />       
-            <List />        
+            />           
           </div>                         
         </div>    
         <footer className="App-footer">

@@ -15,7 +15,9 @@ class Information extends React.Component{
 				{ 
 					this.props.rateCenter &&
 					<p className="number__key">Rate Center: 
-							<span className="number__value"> {this.props.rateCenter}</span>
+						<Link to={"/list"}>
+								<span className="number__value"> {this.props.rateCenter}</span>
+						</Link>
 					</p> 
 				}
 				{ 
@@ -69,11 +71,5 @@ class Information extends React.Component{
 		);
 	}
 };
-
-// const List = () => (
-// 	<div>
-// 		<p>Hello World!</p>
-// 	</div>
-// );
 
 export default Information;
